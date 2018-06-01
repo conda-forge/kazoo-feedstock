@@ -14,12 +14,15 @@ Kazoo is a high-level Python library that makes it easier to use Apache Zookeepe
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/kazoo-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/kazoo-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/kazoo-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/kazoo-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/kazoo/badges/version.svg)](https://anaconda.org/conda-forge/kazoo)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/kazoo/badges/downloads.svg)](https://anaconda.org/conda-forge/kazoo)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-kazoo-green.svg)](https://anaconda.org/conda-forge/kazoo) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/kazoo.svg)](https://anaconda.org/conda-forge/kazoo) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/kazoo.svg)](https://anaconda.org/conda-forge/kazoo) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/kazoo.svg)](https://anaconda.org/conda-forge/kazoo) |
 
 Installing kazoo
 ================
