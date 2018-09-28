@@ -1,6 +1,6 @@
 {% set name = "kazoo" %}
-{% set version = "2.4.0" %}
-{% set sha256 = "a7c2d1d7ddb047c936d368e31b08a93bb327ffa46606fe85f550a37ce608c29b" %}
+{% set version = "2.5.0" %}
+{% set sha256 = "8db774f7bdece7d0dc7decb21539ff0852e42c2ffe1c28d7f1ff6f9292a1c3a4" %}
 
 package:
   name: {{ name|lower }}
@@ -14,12 +14,15 @@ source:
 build:
   noarch: python
   number: 0
-  script: python setup.py install --single-version-externally-managed --record record.txt
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
   build:
     - python
     - setuptools
+    - pip
+  host:
+    - pip
   run:
     - python
     - six
@@ -42,3 +45,4 @@ about:
 extra:
   recipe-maintainers:
       - mrocklin
+      - emmett9001
