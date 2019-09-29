@@ -41,6 +41,7 @@ about:
 
 extra:
   recipe-maintainers:
-      - mrocklin
-      - emmett9001
-      - mrakitin
+    - mrocklin
+    - emmett9001
+    - mrakitin
+    - StephenSorriaux
