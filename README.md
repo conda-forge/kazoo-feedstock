@@ -1,7 +1,3 @@
-<!--
-# -*- mode: jinja -*-
--->
-
 About kazoo
 ===========
 
@@ -18,8 +14,15 @@ Kazoo is a high-level Python library that makes it easier to use Apache Zookeepe
 Current build status
 ====================
 
-All platforms:
-[![noarch](https://img.shields.io/circleci/project/github/conda-forge/kazoo-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/kazoo-feedstock)
+
+<table><tr><td>All platforms:</td>
+    <td>
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=3063&branchName=master">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/kazoo-feedstock?branchName=master">
+      </a>
+    </td>
+  </tr>
+</table>
 
 Current release info
 ====================
@@ -113,6 +116,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@StephenSorriaux](https://github.com/StephenSorriaux/)
 * [@emmett9001](https://github.com/emmett9001/)
 * [@mrocklin](https://github.com/mrocklin/)
 
