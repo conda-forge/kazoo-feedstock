@@ -1,6 +1,6 @@
 {% set name = "kazoo" %}
-{% set version = "2.6.1" %}
-{% set sha256 = "4a73c2c62a7163ca1c4aef82aa042d795560497cc81034f212ef13cc037cc783" %}
+{% set version = "2.7.0" %}
+{% set sha256 = "6883f6dd3e8d4e1741076dd3b23b0861592f13759072e3835f035bcb72b077cb" %}
 
 package:
   name: {{ name|lower }}
@@ -13,8 +13,8 @@ source:
 
 build:
   noarch: python
-  number: 1
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
   host:
@@ -33,7 +33,7 @@ about:
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
-  summary: 'Kazoo is a high-level Python library that makes it easier to use Apache Zookeeper'
+  summary: Kazoo is a high-level Python library that makes it easier to use Apache Zookeeper
 
   description: Kazoo is a high-level Python library that makes it easier to use Apache Zookeeper
   doc_url: https://kazoo.readthedocs.io/
