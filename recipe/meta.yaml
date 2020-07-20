@@ -1,6 +1,6 @@
 {% set name = "kazoo" %}
-{% set version = "2.7.0" %}
-{% set sha256 = "6883f6dd3e8d4e1741076dd3b23b0861592f13759072e3835f035bcb72b077cb" %}
+{% set version = "2.8.0" %}
+{% set sha256 = "588e27868e4a0ed70ae4a7a5b0f3bca4cec5e5c49dbd7e41349c0883182bf2fe" %}
 
 package:
   name: {{ name|lower }}
