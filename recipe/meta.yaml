@@ -1,6 +1,6 @@
 {% set name = "kazoo" %}
-{% set version = "2.9.0" %}
-{% set sha256 = "800318c7f3dab648cdf616dfb25bdabeefab2a6837aa6951e0fa3ff80e656969" %}
+{% set version = "2.10.0" %}
+{% set sha256 = "905796ae4f4c12bd4e4ae92e6e5d018439e6b56c8cfbb24825362e79b230dab1" %}
 
 package:
   name: {{ name|lower }}
@@ -19,10 +19,9 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.8
   run:
-    - python >=3.7
-    - six
+    - python >=3.8
 
 test:
   imports:
