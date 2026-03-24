@@ -1,6 +1,6 @@
 {% set name = "kazoo" %}
-{% set version = "2.10.0" %}
-{% set sha256 = "905796ae4f4c12bd4e4ae92e6e5d018439e6b56c8cfbb24825362e79b230dab1" %}
+{% set version = "2.11.0" %}
+{% set sha256 = "57e7e6f69295c8f922511488eeb79680729e14bb8eb382d5cad83aa11345c36c" %}
 
 package:
   name: {{ name|lower }}
@@ -13,13 +13,14 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
 
 requirements:
   host:
-    - pip
     - python {{ python_min }}
+    - pip
+    - setuptools
   run:
     - python >={{ python_min }}
 
